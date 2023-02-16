@@ -18,3 +18,22 @@ print('el resultado de la suma es = ', suma)
 print('el resultado de la resta es = ', resta
 
 
+a = float(input('Ingresa la medida de un lado: '))
+b = float(input('Ingresa la medida de otro lado: '))
+c = float(input('Ingresa la medida de otro lado: ')) 
+
+if a==b and a==c and b==c:
+  print('Es un triangulo equilatero')
+elif a!=b and a!=c and b!=c:
+  print('Es un triangulo escaleno') 
+else:
+  print('Es un triangulo isosceles')
+  
+  
+radio = float(input('Ingrese un número: '))
+volumen = 3/4*3.1415*radio**3
+if radio>0:
+  print('El volumen es: ', volumen)
+else:
+  print('ERROR DE VALORES')
+  

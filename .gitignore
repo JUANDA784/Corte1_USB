@@ -1,5 +1,20 @@
+
 a = int(input('coloque un número: '))
 b = int(input('coloque un número: '))
 c = (a**2 + b**2)**0.5
 
 print('La hipotenusa entre esos dos lados es = ', c)
+
+
+
+
+number1 = int(input('Coloque un número: '))
+number2 = int(input('Coloque un número: '))
+
+suma = number1 + number2
+resta = number1 - number2
+
+print('el resultado de la suma es = ', suma)
+print('el resultado de la resta es = ', resta
+
+

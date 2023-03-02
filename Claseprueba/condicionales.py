@@ -1,9 +1,9 @@
-n=0;
-while n<=10:
-    n+=1
-    print(n)
-print('Fin del proceso')
-
+#n=0;
+#while n<=10:
+#    n+=1
+#    print(n)
+#print('Fin del proceso')
+#
 #primer punto
 
 #edad = int( input('Ingrese su edad: '))
